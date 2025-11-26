@@ -14,32 +14,32 @@ ua = UserAgent()
 file_lock = threading.Lock()
 # สถานะการแจ้งเตือน API และ cooldown
 api_status = {
-    "api1": {"active": True, "cooldown": 0, "notified": False},  # Gogo-Shop
-    "api2": {"active": True, "cooldown": 0, "notified": False},  # Kex-Express
-    "api3": {"active": True, "cooldown": 0, "notified": False},  # Jaomuehuay
-    "api4": {"active": True, "cooldown": 0, "notified": False},  # Jut8
-    "api5": {"active": True, "cooldown": 0, "notified": False},  # Cdo888
-    "api6": {"active": True, "cooldown": 0, "notified": False},  # Joneslot
-    "api7": {"active": True, "cooldown": 0, "notified": False},  # Swin168
-    "api8": {"active": True, "cooldown": 0, "notified": False},  # Johnwick168
-    "api9": {"active": True, "cooldown": 0, "notified": False},  # Skyslot7
-    "api10": {"active": True, "cooldown": 0, "notified": False}, # Mgi88
-    "api11": {"active": True, "cooldown": 0, "notified": False}, # DeeCasino
-    "api12": {"active": True, "cooldown": 0, "notified": False}, # Mgame666
-    "api13": {"active": True, "cooldown": 0, "notified": False}, # Prompkai
-    "api14": {"active": True, "cooldown": 0, "notified": False}, # Fun24
-    "api15": {"active": True, "cooldown": 0, "notified": False}, # Wm78bet
-    "api16": {"active": True, "cooldown": 0, "notified": False}, # Happy168
-    "api17": {"active": True, "cooldown": 0, "notified": False}, # Pgheng
-    "api18": {"active": True, "cooldown": 0, "notified": False}, # Aplusfun
-    "api19": {"active": True, "cooldown": 0, "notified": False}, # Cueu77778887
-    "api20": {"active": True, "cooldown": 0, "notified": False}, # Oneforbet
-    "api21": {"active": True, "cooldown": 0, "notified": False}, # Joker123ths
-    "api22": {"active": True, "cooldown": 0, "notified": False},  # Jklmn23456
-    "api23": {"active": True, "cooldown": 0, "notified": False},
-    "api24": {"active": True, "cooldown": 0, "notified": False},
-    "api25": {"active": True, "cooldown": 0, "notified": False},
-    "api26": {"active": True, "cooldown": 0, "notified": False},
+    "api1": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api2": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api3": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api4": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api5": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api6": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api7": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api8": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api9": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api10": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api11": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api12": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api13": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api14": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api15": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api16": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api17": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api18": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api19": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api20": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api21": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api22": {"active": True, "cooldown": 0, "notified": False},  # NOCAP
+    "api23": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api24": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api25": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
+    "api26": {"active": True, "cooldown": 0, "notified": False}, # NOCAP
 }
 api_lock = threading.Lock()
 
